@@ -1,0 +1,95 @@
+{
+	"info": {
+		"_postman_id": "24575eb1-2b4b-4e6d-9e5e-140435814fb0",
+		"name": "deportes",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29903610",
+		"_collection_link": "https://restless-eclipse-383569.postman.co/workspace/pets~0324e047-4453-43d8-b51e-3ec191408e95/collection/29903610-24575eb1-2b4b-4e6d-9e5e-140435814fb0?action=share&source=collection_link&creator=29903610"
+	},
+	"item": [
+		{
+			"name": "futbol",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "tenis",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "baloncesto",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "beisbol",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "golf",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "natacion",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"6\",\r\n    \"code\": \"natacion\",\r\n    \"name\": \"Natación\",\r\n    \"descripcion\": \"Deporte individual practicado en una piscina.\",\r\n    \"numero canchas\": 0,\r\n    \"cantidad equipos\": 0\r\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/deportes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"deportes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "atletismo",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "ciclismo",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
